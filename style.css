@@ -1,0 +1,86 @@
+body {
+    font-family: "Georgia, serif";
+    background-color: grey;
+}
+
+
+form {
+
+    font-family: "Georgia, serif";
+    font-size: 25px;
+
+}
+
+ div#pagination a {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+
+ }
+ div#pagination a:hover {
+    color:red;
+ }
+
+ div#pagination {
+    padding:2%;
+ }
+
+
+ div#listePagination img {
+    max-height: 200;
+    max-width: 300px;
+    border: 8px solid #ffffff;
+    width: 300;
+    height: 300;
+    object-fit: cover;
+}
+
+ div#listePagination img:hover {
+  transform:scale(1.1);
+  transition: transform .2s; 
+ }
+
+ center br {
+            display: block; 
+            content: ""; 
+            margin-top: 30; 
+}
+
+footer br{
+    display: block; 
+    content: ""; 
+    margin-top: -12; 
+}
+
+div#listePagination {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: grey;
+}
+
+div#listePagination span {
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 170px;
+}
+
+ div#listePagination a{
+    background: white;
+    color: 3c4043;
+    box-shadow: rgb(0 0 0 / 20%) 0 3px 5px -1px, rgb(0 0 0 / 14%) 0 6px 10px 0, rgb(0 0 0 / 12%) 0 1px 18px 0;
+    border-radius: 5px;
+    border: 3px solid #2e2722;
+    position:relative;
+    top:20px;
+    right:120px;
+    font-size: 22px;
+ }
+
+div#listePagination a:hover{
+    background: #3c4043;
+    color: white;
+}
+
